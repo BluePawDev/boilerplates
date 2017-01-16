@@ -21,6 +21,11 @@
   height: 125px;
   border: 1px black solid;
 }
+
+#logoSmall {
+  position: relative;
+  left: 15px;
+}
 html {
     color: #222;
     font-size: 1em;

@@ -1,116 +1,57 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-/**
- 1. Change default font family in all browsers (opinionated).
- 2. Correct line height in all browsers.
- 3. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.
- */
 
-/* DOCUMENT================================================================== */
+
+/* DOCUMENT */
 html {
-    font-family: sans-serif;
-    /* 1 */
-    line-height: 1.15;
-    /* 2 */
-    -ms-text-size-adjust: 100%;
-    /* 3 */
-    -webkit-text-size-adjust: 100%;
-    /* 3 */
+    font-family: sans-serif; /* changes default font family in all browsers (opinion) */
+    line-height: 1.15; /* correct line height in all browsers */
+    -ms-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes: IE on Windows Phone and iOS. */
+    -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes: IE on Windows Phone and iOS. */
 }
 
-/* SECTIONS================================================================== */
-/**
- * Remove the margin in all browsers (opinionated).
- */
 
-body {
+/* SECTIONS */
+body { /* removes margin in all browsers */
     margin: 0;
 }
 
-
-/**
- * Add the correct display in IE 9-.
- */
-
-article, aside, footer, header, nav, section {
+article, aside, footer, header, nav, section { /* adds correct display in IE9- */
     display: block;
 }
 
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
+h1 { /* corrects font size and margin on `h1` within `section` and
+* `article` in Chrome, Firefox, and Safari. */
     font-size: 2em;
     margin: 0.67em 0;
 }
 
 
-/* GROUPING CONTENT========================================================== */
-
-
-/**
- * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
- */
-
-figcaption, figure, main {
-    /* 1 */
+/* GROUPING CONTENT */
+figcaption, figure, main { /* adds correct display in IE */
     display: block;
 }
 
-
-/**
- * Add the correct margin in IE 8.
- */
-
-figure {
+figure { /* adds correct margin in IE8 */
     margin: 1em 40px;
 }
 
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-
 hr {
-    box-sizing: content-box;
-    /* 1 */
-    height: 0;
-    /* 1 */
-    overflow: visible;
-    /* 2 */
+    box-sizing: content-box; /* correct box sizing in Firefox */
+    height: 0; /* correct box sizing in Firefox */
+    overflow: visible; /* show overflow in Edge in IE */
 }
-
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
 
 pre {
-    font-family: monospace, monospace;
-    /* 1 */
-    font-size: 1em;
-    /* 2 */
+    font-family: monospace, monospace; /* correct inheritance/scaling of font size in all browsers */
+    font-size: 1em; /* correct odd 'em' font sizing in all browsers */
 }
 
 
-/* TEXT-LELVEL SEMANTICS===================================================== */
-
-
-/**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
- */
+/* TEXT-LELVEL SEMANTICS */
 
 a {
-    background-color: transparent;
-    /* 1 */
-    -webkit-text-decoration-skip: objects;
-    /* 2 */
+    background-color: transparent; /* removes gray background of active links in IE10 */
+    -webkit-text-decoration-skip: objects; /* removes gaps in links underline in iOS8+ and Safari 8+ */
 }
 
 
@@ -123,19 +64,10 @@ a:active, a:hover {
     outline-width: 0;
 }
 
-
-/**
- * 1. Remove the bottom border in Firefox 39-.
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-
 abbr[title] {
-    border-bottom: none;
-    /* 1 */
-    text-decoration: underline;
-    /* 2 */
-    text-decoration: underline dotted;
-    /* 2 */
+    border-bottom: none; /* removes bottom border in Firefox 39- */
+    text-decoration: underline; /* adds correct decoration in Chrome, Edge, IE, Opear, Safari*/
+    text-decoration: underline dotted; /* adds correct decoration in Chrome, Edge, IE, Opear, Safari*/
 }
 
 
